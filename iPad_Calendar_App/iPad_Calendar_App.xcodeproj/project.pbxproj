@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E70369A2566076A00CB089D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7036992566076A00CB089D /* AppDelegate.swift */; };
+		2E70369C2566076A00CB089D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70369B2566076A00CB089D /* SceneDelegate.swift */; };
+		2E70369E2566076B00CB089D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70369D2566076B00CB089D /* ContentView.swift */; };
+		2E7036A02566076E00CB089D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E70369F2566076E00CB089D /* Assets.xcassets */; };
+		2E7036A32566076E00CB089D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7036A22566076E00CB089D /* Preview Assets.xcassets */; };
+		2E7036A62566076E00CB089D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7036A42566076E00CB089D /* LaunchScreen.storyboard */; };
+		2E7036B12566076E00CB089D /* iPad_Calendar_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7036B02566076E00CB089D /* iPad_Calendar_AppTests.swift */; };
+		2E7036BC2566076E00CB089D /* iPad_Calendar_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7036BB2566076E00CB089D /* iPad_Calendar_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E7036AD2566076E00CB089D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E70368E2566076A00CB089D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E7036952566076A00CB089D;
+			remoteInfo = iPad_Calendar_App;
+		};
+		2E7036B82566076E00CB089D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E70368E2566076A00CB089D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E7036952566076A00CB089D;
+			remoteInfo = iPad_Calendar_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E7036962566076A00CB089D /* iPad_Calendar_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPad_Calendar_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7036992566076A00CB089D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E70369B2566076A00CB089D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E70369D2566076B00CB089D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E70369F2566076E00CB089D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E7036A22566076E00CB089D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E7036A52566076E00CB089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E7036A72566076E00CB089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7036AC2566076E00CB089D /* iPad_Calendar_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPad_Calendar_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7036B02566076E00CB089D /* iPad_Calendar_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad_Calendar_AppTests.swift; sourceTree = "<group>"; };
+		2E7036B22566076E00CB089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7036B72566076E00CB089D /* iPad_Calendar_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPad_Calendar_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7036BB2566076E00CB089D /* iPad_Calendar_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad_Calendar_AppUITests.swift; sourceTree = "<group>"; };
+		2E7036BD2566076E00CB089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7036932566076A00CB089D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7036A92566076E00CB089D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7036B42566076E00CB089D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E70368D2566076A00CB089D = {
+			isa = PBXGroup;
+			children = (
+				2E7036982566076A00CB089D /* iPad_Calendar_App */,
+				2E7036AF2566076E00CB089D /* iPad_Calendar_AppTests */,
+				2E7036BA2566076E00CB089D /* iPad_Calendar_AppUITests */,
+				2E7036972566076A00CB089D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E7036972566076A00CB089D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E7036962566076A00CB089D /* iPad_Calendar_App.app */,
+				2E7036AC2566076E00CB089D /* iPad_Calendar_AppTests.xctest */,
+				2E7036B72566076E00CB089D /* iPad_Calendar_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E7036982566076A00CB089D /* iPad_Calendar_App */ = {
+			isa = PBXGroup;
+			children = (
+				2E7036992566076A00CB089D /* AppDelegate.swift */,
+				2E70369B2566076A00CB089D /* SceneDelegate.swift */,
+				2E70369D2566076B00CB089D /* ContentView.swift */,
+				2E70369F2566076E00CB089D /* Assets.xcassets */,
+				2E7036A42566076E00CB089D /* LaunchScreen.storyboard */,
+				2E7036A72566076E00CB089D /* Info.plist */,
+				2E7036A12566076E00CB089D /* Preview Content */,
+			);
+			path = iPad_Calendar_App;
+			sourceTree = "<group>";
+		};
+		2E7036A12566076E00CB089D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E7036A22566076E00CB089D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E7036AF2566076E00CB089D /* iPad_Calendar_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E7036B02566076E00CB089D /* iPad_Calendar_AppTests.swift */,
+				2E7036B22566076E00CB089D /* Info.plist */,
+			);
+			path = iPad_Calendar_AppTests;
+			sourceTree = "<group>";
+		};
+		2E7036BA2566076E00CB089D /* iPad_Calendar_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E7036BB2566076E00CB089D /* iPad_Calendar_AppUITests.swift */,
+				2E7036BD2566076E00CB089D /* Info.plist */,
+			);
+			path = iPad_Calendar_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E7036952566076A00CB089D /* iPad_Calendar_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E7036C02566076F00CB089D /* Build configuration list for PBXNativeTarget "iPad_Calendar_App" */;
+			buildPhases = (
+				2E7036922566076A00CB089D /* Sources */,
+				2E7036932566076A00CB089D /* Frameworks */,
+				2E7036942566076A00CB089D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPad_Calendar_App;
+			productName = iPad_Calendar_App;
+			productReference = 2E7036962566076A00CB089D /* iPad_Calendar_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E7036AB2566076E00CB089D /* iPad_Calendar_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E7036C32566076F00CB089D /* Build configuration list for PBXNativeTarget "iPad_Calendar_AppTests" */;
+			buildPhases = (
+				2E7036A82566076E00CB089D /* Sources */,
+				2E7036A92566076E00CB089D /* Frameworks */,
+				2E7036AA2566076E00CB089D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E7036AE2566076E00CB089D /* PBXTargetDependency */,
+			);
+			name = iPad_Calendar_AppTests;
+			productName = iPad_Calendar_AppTests;
+			productReference = 2E7036AC2566076E00CB089D /* iPad_Calendar_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E7036B62566076E00CB089D /* iPad_Calendar_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E7036C62566076F00CB089D /* Build configuration list for PBXNativeTarget "iPad_Calendar_AppUITests" */;
+			buildPhases = (
+				2E7036B32566076E00CB089D /* Sources */,
+				2E7036B42566076E00CB089D /* Frameworks */,
+				2E7036B52566076E00CB089D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E7036B92566076E00CB089D /* PBXTargetDependency */,
+			);
+			name = iPad_Calendar_AppUITests;
+			productName = iPad_Calendar_AppUITests;
+			productReference = 2E7036B72566076E00CB089D /* iPad_Calendar_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E70368E2566076A00CB089D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Cal Carlson";
+				TargetAttributes = {
+					2E7036952566076A00CB089D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					2E7036AB2566076E00CB089D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2E7036952566076A00CB089D;
+					};
+					2E7036B62566076E00CB089D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2E7036952566076A00CB089D;
+					};
+				};
+			};
+			buildConfigurationList = 2E7036912566076A00CB089D /* Build configuration list for PBXProject "iPad_Calendar_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E70368D2566076A00CB089D;
+			productRefGroup = 2E7036972566076A00CB089D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E7036952566076A00CB089D /* iPad_Calendar_App */,
+				2E7036AB2566076E00CB089D /* iPad_Calendar_AppTests */,
+				2E7036B62566076E00CB089D /* iPad_Calendar_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E7036942566076A00CB089D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7036A62566076E00CB089D /* LaunchScreen.storyboard in Resources */,
+				2E7036A32566076E00CB089D /* Preview Assets.xcassets in Resources */,
+				2E7036A02566076E00CB089D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7036AA2566076E00CB089D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7036B52566076E00CB089D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E7036922566076A00CB089D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E70369A2566076A00CB089D /* AppDelegate.swift in Sources */,
+				2E70369C2566076A00CB089D /* SceneDelegate.swift in Sources */,
+				2E70369E2566076B00CB089D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7036A82566076E00CB089D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7036B12566076E00CB089D /* iPad_Calendar_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E7036B32566076E00CB089D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7036BC2566076E00CB089D /* iPad_Calendar_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E7036AE2566076E00CB089D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E7036952566076A00CB089D /* iPad_Calendar_App */;
+			targetProxy = 2E7036AD2566076E00CB089D /* PBXContainerItemProxy */;
+		};
+		2E7036B92566076E00CB089D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E7036952566076A00CB089D /* iPad_Calendar_App */;
+			targetProxy = 2E7036B82566076E00CB089D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E7036A42566076E00CB089D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E7036A52566076E00CB089D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E7036BE2566076F00CB089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E7036BF2566076F00CB089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E7036C12566076F00CB089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iPad_Calendar_App/Preview Content\"";
+				DEVELOPMENT_TEAM = XCCY4X2AAP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iPad_Calendar_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iPad-Calendar-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E7036C22566076F00CB089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iPad_Calendar_App/Preview Content\"";
+				DEVELOPMENT_TEAM = XCCY4X2AAP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iPad_Calendar_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iPad-Calendar-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E7036C42566076F00CB089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCCY4X2AAP;
+				INFOPLIST_FILE = iPad_Calendar_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iPad-Calendar-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPad_Calendar_App.app/iPad_Calendar_App";
+			};
+			name = Debug;
+		};
+		2E7036C52566076F00CB089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCCY4X2AAP;
+				INFOPLIST_FILE = iPad_Calendar_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iPad-Calendar-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPad_Calendar_App.app/iPad_Calendar_App";
+			};
+			name = Release;
+		};
+		2E7036C72566076F00CB089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCCY4X2AAP;
+				INFOPLIST_FILE = iPad_Calendar_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iPad-Calendar-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPad_Calendar_App;
+			};
+			name = Debug;
+		};
+		2E7036C82566076F00CB089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XCCY4X2AAP;
+				INFOPLIST_FILE = iPad_Calendar_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iPad-Calendar-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPad_Calendar_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E7036912566076A00CB089D /* Build configuration list for PBXProject "iPad_Calendar_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7036BE2566076F00CB089D /* Debug */,
+				2E7036BF2566076F00CB089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E7036C02566076F00CB089D /* Build configuration list for PBXNativeTarget "iPad_Calendar_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7036C12566076F00CB089D /* Debug */,
+				2E7036C22566076F00CB089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E7036C32566076F00CB089D /* Build configuration list for PBXNativeTarget "iPad_Calendar_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7036C42566076F00CB089D /* Debug */,
+				2E7036C52566076F00CB089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E7036C62566076F00CB089D /* Build configuration list for PBXNativeTarget "iPad_Calendar_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E7036C72566076F00CB089D /* Debug */,
+				2E7036C82566076F00CB089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E70368E2566076A00CB089D /* Project object */;
+}
